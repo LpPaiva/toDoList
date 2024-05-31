@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+
+    height: 100vh;
+    font-family: "Inter",  sans-serif;
+    background-color: #F1F3F2;
+    overflow: hidden;
+    
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    width: 890px;
+    margin-top: 100px;
+    border-bottom: 1px  solid #E3DEDE;
+    
+}
+
+.menu{
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.menu a{
+    font-size: 16px;
+    text-decoration: none;
+    padding: 6px;
+    margin-right: 10px;
+    background-color: #FFFFFF;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: #818181;
+    
+}
+
+
+.search-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.search-container label{
+    display: none;
+}
+
+.search-container input{
+    width: 370px;
+    height:15px;
+    border: none;
+    border-radius: 50px;
+    padding: 8px;
+      
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    border: 1px solid #cccbcb;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+}
+
+.search i{
+    margin-right: 8px;
+    color:#cccbcb;
+}
+
+input:focus-visible{
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: #cccbcb;
+   
+ }
+
+
+.add-task-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+
+.add-task-container div{
+   padding: 10px;
+}
+
+.add-task input{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #cccbcb;
+    border-radius: 50px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.add-task-button{
+    border-radius: 50px;
+    border: none;
+    background-color: #E2D7E5;
+    padding: 8px;
+    width: 100px;
+    cursor: pointer;
+
+}
+
+.task-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow-y:scroll;
+    height: 470px;
+    padding-top: 15px;
+    
+    
+}
+
+.task{
+   
+    padding: 8px;
+    background-color: #FFFFFF;
+    font-size: 11px;
+    font-weight:300;
+    width: 800px;
+    border-radius: 8px;
+    margin-bottom: 6px;
+    
+   
+}
+
+
+.task-description{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
