@@ -4,7 +4,7 @@
 }
 
 body{
-
+    
     height: 100vh;
     font-family: "Inter",  sans-serif;
     background-color: #F1F3F2;
@@ -128,12 +128,34 @@ input:focus-visible{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow-y:scroll;
-    height: 470px;
+    height: 480px;
     padding-top: 15px;
     
     
+    
 }
+
+.list{
+    overflow-y:scroll;
+    padding-right: 5px;
+}
+
+.list::-webkit-scrollbar{
+    width: 8px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    
+    
+}
+
+.list::-webkit-scrollbar-thumb{
+    background-color: #E2D7E5;
+    border-radius: 8px;
+    
+}
+
+
+
 
 .task{
    
@@ -144,7 +166,7 @@ input:focus-visible{
     width: 800px;
     border-radius: 8px;
     margin-bottom: 6px;
-    
+   
    
 }
 
